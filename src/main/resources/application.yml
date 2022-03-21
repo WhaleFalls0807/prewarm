@@ -1,0 +1,16 @@
+server:
+  port: 9700
+  tomcat:
+    max-http-post-size: -1
+#spring:
+#  profiles:
+#    active: test
+#  application:
+#    name: prewarm
+
+mars:
+  data:
+    mongodb:
+      uri: mongodb://47.100.1.115:27017
+      database: prewarm
+
